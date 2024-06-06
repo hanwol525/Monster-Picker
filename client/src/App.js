@@ -14,7 +14,6 @@ export default function App() {
   return (
     <div style={{width: '100%', margin: 0}}>
       <app-toast aria-live="polite" aria-atomic="true"></app-toast>
-      <div>{data ? data : 'no data'}</div>
       <Header />
       <Generator />
       <Footer />
