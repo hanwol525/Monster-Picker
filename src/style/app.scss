@@ -1,0 +1,51 @@
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+$color-1: #DAF3CC;
+$color-2: #272826;
+$color-3: #618978;
+
+* {
+  font-family: 'Roboto Slab', serif;
+  background-color: $color-1;
+}
+
+// COLORS
+.color-1 {
+  color: $color-1;
+}
+.color-2 {
+  color: $color-2;
+}
+.color-3 {
+  color: $color-3;
+}
+
+.page {
+  height: max(500px, 100vh);
+  width: fit-content;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.header {
+  margin: auto;
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.footer {
+  padding-bottom: 1px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: transparent;
+
+  p {
+    font-size: 12px;
+  }
+}
