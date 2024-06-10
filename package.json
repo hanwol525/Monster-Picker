@@ -6,14 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api/bin/www",
-    "dev": "concurrently \"cd api && npm start\" \"cd client && npm start\"" ,
+    "dev": "concurrently \"cd api && npm start\" \"cd client && npm start\"",
     "build": "cd client && npm run build",
-    "install": "cd api && npm i && cd ../client && npm i"
+    "install": "cd api && npm i && cd ../client && npm i",
+    "seed": "cd api && npm run seed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^8.2.2"
   }
 }
