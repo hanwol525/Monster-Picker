@@ -6,7 +6,7 @@ import './style/app.scss';
 
 export default function App() {
   return (
-    <div style={{width: '100%', margin: 0}}>
+    <div style={{width: '100%', margin: 0}} className='stone-bg'>
       <app-toast aria-live="polite" aria-atomic="true"></app-toast>
       <Header />
       <Generator />

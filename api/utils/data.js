@@ -13,7 +13,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral good",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/aarakocra.svg"
   },
   {
       monster_id: 2,
@@ -26,7 +27,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "lawful evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/aberrations/aboleth.svg"
   },
   {
       monster_id: 3,
@@ -39,7 +41,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/monstrosities/abominable-yeti.svg"
   },
   {
       monster_id: 4,
@@ -52,7 +55,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/acolyte.svg"
   },
   {
       monster_id: 5,
@@ -65,7 +69,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-black-dragon.svg"
   },
   {
       monster_id: 6,
@@ -78,7 +83,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: true,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/undead/adult-blue-dracolich.svg"
   },
   {
       monster_id: 7,
@@ -91,7 +97,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-blue-dragon.svg"
   },
   {
       monster_id: 8,
@@ -104,7 +111,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-brass-dragon.svg"
   },
   {
       monster_id: 9,
@@ -117,7 +125,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-bronze-dragon.svg"
   },
   {
       monster_id: 10,
@@ -130,7 +139,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-copper-dragon.svg"
   },
   {
       monster_id: 11,
@@ -143,7 +153,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-gold-dragon.svg"
   },
   {
       monster_id: 12,
@@ -156,7 +167,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-green-dragon.svg"
   },
   {
       monster_id: 13,
@@ -169,7 +181,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-red-dragon.svg"
   },
   {
       monster_id: 14,
@@ -182,7 +195,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-silver-dragon.svg"
   },
   {
       monster_id: 15,
@@ -195,7 +209,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/adult-white-dragon.svg"
   },
   {
       monster_id: 16,
@@ -208,7 +223,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/air-elemental.svg"
   },
   {
       monster_id: 17,
@@ -221,7 +237,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "Monster Manual (BR)"
+      source: "Monster Manual (BR)",
+      token_img: "assets/tokens/beasts/allosaurus.svg"
   },
   {
       monster_id: 18,
@@ -234,7 +251,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-black-dragon.svg"
   },
   {
       monster_id: 19,
@@ -247,7 +265,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-blue-dragon.svg"
   },
   {
       monster_id: 20,
@@ -260,7 +279,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-brass-dragon.svg"
   },
   {
       monster_id: 21,
@@ -273,7 +293,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-bronze-dragon.svg"
   },
   {
       monster_id: 22,
@@ -286,7 +307,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-copper-dragon.svg"
   },
   {
       monster_id: 23,
@@ -299,7 +321,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-gold-dragon.svg"
   },
   {
       monster_id: 24,
@@ -312,7 +335,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-green-dragon.svg"
   },
   {
       monster_id: 25,
@@ -325,7 +349,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-red-dragon.svg"
   },
   {
       monster_id: 26,
@@ -338,7 +363,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-silver-dragon.svg"
   },
   {
       monster_id: 27,
@@ -351,7 +377,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/ancient-white-dragon.svg"
   },
   {
       monster_id: 28,
@@ -364,7 +391,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful neutral",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/androsphinx.svg"
   },
   {
       monster_id: 29,
@@ -377,7 +405,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/animated-armor.svg"
   },
   {
       monster_id: 30,
@@ -390,7 +419,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/ankheg.svg"
   },
   {
       monster_id: 31,
@@ -403,7 +433,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "Monster Manual (BR)"
+      source: "Monster Manual (BR)",
+      token_img: "assets/tokens/beasts/ankylosaurus.svg"
   },
   {
       monster_id: 32,
@@ -416,7 +447,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/ape.svg"
   },
   {
       monster_id: 33,
@@ -429,7 +461,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/arcanaloth.svg"
   },
   {
       monster_id: 34,
@@ -442,7 +475,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/archmage.svg"
   },
   {
       monster_id: 35,
@@ -455,7 +489,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any non-good alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/assassin.svg"
   },
   {
       monster_id: 36,
@@ -468,7 +503,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/plants/awakened-shrub.svg"
   },
   {
       monster_id: 37,
@@ -481,7 +517,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/plants/awakened-tree.svg"
   },
   {
       monster_id: 38,
@@ -494,7 +531,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/axe-beak.svg"
   },
   {
       monster_id: 39,
@@ -507,7 +545,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/azer.svg"
   },
   {
       monster_id: 40,
@@ -520,7 +559,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/baboon.svg"
   },
   {
       monster_id: 41,
@@ -533,7 +573,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/badger.svg"
   },
   {
       monster_id: 42,
@@ -546,7 +587,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/balor.svg"
   },
   {
       monster_id: 43,
@@ -559,7 +601,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any non-lawful alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/bandit.svg"
   },
   {
       monster_id: 44,
@@ -572,7 +615,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any non-lawful alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/bandit-captain.svg"
   },
   {
       monster_id: 45,
@@ -585,7 +629,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual (BR)"
+      source: "Monster Manual (BR)",
+      token_img: "assets/tokens/undead/banshee.svg"
   },
   {
       monster_id: 46,
@@ -598,7 +643,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/barbed-devil.svg"
   },
   {
       monster_id: 47,
@@ -611,7 +657,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/fiends/barlgura.svg"
   },
   {
       monster_id: 48,
@@ -624,7 +671,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/basilisk.svg"
   },
   {
       monster_id: 49,
@@ -637,7 +685,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/bat.svg"
   },
   {
       monster_id: 50,
@@ -650,7 +699,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/bearded-devil.svg"
   },
   {
       monster_id: 51,
@@ -663,7 +713,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/behir.svg"
   },
   {
       monster_id: 52,
@@ -676,7 +727,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: true,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/beholder.svg"
   },
   {
       monster_id: 53,
@@ -689,7 +741,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/undead/beholder-zombie.svg"
   },
   {
       monster_id: 54,
@@ -702,7 +755,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any chaotic alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/berserker.svg"
   },
   {
       monster_id: 55,
@@ -715,7 +769,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/black-bear.svg"
   },
   {
       monster_id: 56,
@@ -728,7 +783,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/black-dragon-wyrmling.svg"
   },
   {
       monster_id: 57,
@@ -741,7 +797,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/oozes/black-pudding.svg"
   },
   {
       monster_id: 58,
@@ -754,7 +811,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fey/blink-dog.svg"
   },
   {
       monster_id: 59,
@@ -767,7 +825,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/blood-hawk.svg"
   },
   {
       monster_id: 60,
@@ -780,7 +839,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/blue-dragon-wyrmling.svg"
   },
   {
       monster_id: 61,
@@ -793,7 +853,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/blue-slaad.svg"
   },
   {
       monster_id: 62,
@@ -806,7 +867,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/boar.svg"
   },
   {
       monster_id: 63,
@@ -819,7 +881,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/bone-devil.svg"
   },
   {
       monster_id: 64,
@@ -832,7 +895,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/undead/bone-naga.svg"
   },
   {
       monster_id: 65,
@@ -845,7 +909,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/brass-dragon-wyrmling.svg"
   },
   {
       monster_id: 66,
@@ -858,7 +923,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/bronze-dragon-wyrmling.svg"
   },
   {
       monster_id: 67,
@@ -871,7 +937,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/brown-bear.svg"
   },
   {
       monster_id: 68,
@@ -884,7 +951,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/bugbear.svg"
   },
   {
       monster_id: 69,
@@ -897,7 +965,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/bugbear-chief.svg"
   },
   {
       monster_id: 70,
@@ -910,7 +979,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/bulette.svg"
   },
   {
       monster_id: 71,
@@ -923,7 +993,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/bullywug.svg"
   },
   {
       monster_id: 72,
@@ -936,7 +1007,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "any evil alignment",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/cambion.svg"
   },
   {
       monster_id: 73,
@@ -949,7 +1021,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/camel.svg"
   },
   {
       monster_id: 74,
@@ -962,7 +1035,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/monstrosities/carrion-crawler.svg"
   },
   {
       monster_id: 75,
@@ -975,7 +1049,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/cat.svg"
   },
   {
       monster_id: 76,
@@ -988,7 +1063,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/centaur.svg"
   },
   {
       monster_id: 77,
@@ -1001,7 +1077,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/chain-devil.svg"
   },
   {
       monster_id: 78,
@@ -1014,7 +1091,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/chasme.svg"
   },
   {
       monster_id: 79,
@@ -1027,7 +1105,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/chimera.svg"
   },
   {
       monster_id: 80,
@@ -1040,7 +1119,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/aberrations/chuul.svg"
   },
   {
       monster_id: 81,
@@ -1053,7 +1133,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/clay-golem.svg"
   },
   {
       monster_id: 82,
@@ -1066,7 +1147,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/aberrations/cloaker.svg"
   },
   {
       monster_id: 83,
@@ -1079,7 +1161,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/cloud-giant.svg"
   },
   {
       monster_id: 84,
@@ -1092,7 +1175,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/cockatrice.svg"
   },
   {
       monster_id: 85,
@@ -1105,7 +1189,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/commoner.svg"
   },
   {
       monster_id: 86,
@@ -1118,7 +1203,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/constrictor-snake.svg"
   },
   {
       monster_id: 87,
@@ -1131,7 +1217,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/copper-dragon-wyrmling.svg"
   },
   {
       monster_id: 88,
@@ -1144,7 +1231,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/celestials/couatl.svg"
   },
   {
       monster_id: 89,
@@ -1157,7 +1245,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/crab.svg"
   },
   {
       monster_id: 90,
@@ -1170,7 +1259,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/undead/crawling-claw.svg"
   },
   {
       monster_id: 91,
@@ -1183,7 +1273,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/crocodile.svg"
   },
   {
       monster_id: 92,
@@ -1196,7 +1287,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any non-good alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/cult-fanatic.svg"
   },
   {
       monster_id: 93,
@@ -1209,7 +1301,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any non-good alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/cultist.svg"
   },
   {
       monster_id: 94,
@@ -1222,7 +1315,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual (BR)"
+      source: "Monster Manual (BR)",
+      token_img: "assets/tokens/giants/cyclops.svg"
   },
   {
       monster_id: 95,
@@ -1235,7 +1329,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/elementals/dao.svg"
   },
   {
       monster_id: 96,
@@ -1248,7 +1343,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/darkmantle.svg"
   },
   {
       monster_id: 97,
@@ -1261,7 +1357,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/death-dog.svg"
   },
   {
       monster_id: 98,
@@ -1274,7 +1371,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/undead/death-knight.svg"
   },
   {
       monster_id: 99,
@@ -1287,7 +1385,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/death-slaad.svg"
   },
   {
       monster_id: 100,
@@ -1300,7 +1399,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: true,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/undead/death-tyrant.svg"
   },
   {
       monster_id: 101,
@@ -1313,7 +1413,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/deep-gnome-(svirfneblin).svg"
   },
   {
       monster_id: 102,
@@ -1326,7 +1427,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/deer.svg"
   },
   {
       monster_id: 103,
@@ -1339,7 +1441,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: true,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/undead/demilich.svg"
   },
   {
       monster_id: 104,
@@ -1352,7 +1455,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/celestials/deva.svg"
   },
   {
       monster_id: 105,
@@ -1365,7 +1469,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/dire-wolf.svg"
   },
   {
       monster_id: 106,
@@ -1378,7 +1483,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/monstrosities/displacer-beast.svg"
   },
   {
       monster_id: 107,
@@ -1391,7 +1497,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/djinni.svg"
   },
   {
       monster_id: 108,
@@ -1404,7 +1511,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/doppelganger.svg"
   },
   {
       monster_id: 109,
@@ -1417,7 +1525,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/draft-horse.svg"
   },
   {
       monster_id: 110,
@@ -1430,7 +1539,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/dragon-turtle.svg"
   },
   {
       monster_id: 111,
@@ -1443,7 +1553,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/dretch.svg"
   },
   {
       monster_id: 112,
@@ -1456,7 +1567,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/drider.svg"
   },
   {
       monster_id: 113,
@@ -1469,7 +1581,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/drow.svg"
   },
   {
       monster_id: 114,
@@ -1482,7 +1595,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/drow-elite-warrior.svg"
   },
   {
       monster_id: 115,
@@ -1495,7 +1609,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/drow-mage.svg"
   },
   {
       monster_id: 116,
@@ -1508,7 +1623,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/drow-priestess-of-lolth.svg"
   },
   {
       monster_id: 117,
@@ -1521,7 +1637,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/druid.svg"
   },
   {
       monster_id: 118,
@@ -1534,7 +1651,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fey/dryad.svg"
   },
   {
       monster_id: 119,
@@ -1547,7 +1665,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/duergar.svg"
   },
   {
       monster_id: 120,
@@ -1560,7 +1679,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/constructs/duodrone.svg"
   },
   {
       monster_id: 121,
@@ -1573,7 +1693,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/dust-mephit.svg"
   },
   {
       monster_id: 122,
@@ -1586,7 +1707,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/eagle.svg"
   },
   {
       monster_id: 123,
@@ -1599,7 +1721,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/earth-elemental.svg"
   },
   {
       monster_id: 124,
@@ -1612,7 +1735,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/efreeti.svg"
   },
   {
       monster_id: 125,
@@ -1625,7 +1749,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/elephant.svg"
   },
   {
       monster_id: 126,
@@ -1638,7 +1763,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/elk.svg"
   },
   {
       monster_id: 127,
@@ -1651,7 +1777,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic good",
       legendary: true,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/celestials/empyrean.svg"
   },
   {
       monster_id: 128,
@@ -1664,7 +1791,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/erinyes.svg"
   },
   {
       monster_id: 129,
@@ -1677,7 +1805,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/ettercap.svg"
   },
   {
       monster_id: 130,
@@ -1690,7 +1819,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/ettin.svg"
   },
   {
       monster_id: 131,
@@ -1703,7 +1833,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/dragons/faerie-dragon.svg"
   },
   {
       monster_id: 132,
@@ -1716,7 +1847,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/fire-elemental.svg"
   },
   {
       monster_id: 133,
@@ -1729,7 +1861,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/fire-giant.svg"
   },
   {
       monster_id: 134,
@@ -1742,7 +1875,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/elementals/fire-snake.svg"
   },
   {
       monster_id: 135,
@@ -1755,7 +1889,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual (BR)"
+      source: "Monster Manual (BR)",
+      token_img: "assets/tokens/undead/flameskull.svg"
   },
   {
       monster_id: 136,
@@ -1768,7 +1903,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/flesh-golem.svg"
   },
   {
       monster_id: 137,
@@ -1781,7 +1917,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/flumph.svg"
   },
   {
       monster_id: 138,
@@ -1794,7 +1931,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/flying-snake.svg"
   },
   {
       monster_id: 139,
@@ -1807,7 +1945,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/flying-sword.svg"
   },
   {
       monster_id: 140,
@@ -1820,7 +1959,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/giants/fomorian.svg"
   },
   {
       monster_id: 141,
@@ -1833,7 +1973,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/frog.svg"
   },
   {
       monster_id: 142,
@@ -1846,7 +1987,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/frost-giant.svg"
   },
   {
       monster_id: 143,
@@ -1859,7 +2001,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/elementals/galeb-duhr.svg"
   },
   {
       monster_id: 144,
@@ -1872,7 +2015,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/gargoyle.svg"
   },
   {
       monster_id: 145,
@@ -1885,7 +2029,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/plants/gas-spore.svg"
   },
   {
       monster_id: 146,
@@ -1898,7 +2043,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/oozes/gelatinous-cube.svg"
   },
   {
       monster_id: 147,
@@ -1911,7 +2057,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/ghast.svg"
   },
   {
       monster_id: 148,
@@ -1924,7 +2071,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/ghost.svg"
   },
   {
       monster_id: 149,
@@ -1937,7 +2085,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/ghoul.svg"
   },
   {
       monster_id: 150,
@@ -1950,7 +2099,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-ape.svg"
   },
   {
       monster_id: 151,
@@ -1963,7 +2113,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-badger.svg"
   },
   {
       monster_id: 152,
@@ -1976,7 +2127,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-bat.svg"
   },
   {
       monster_id: 153,
@@ -1989,7 +2141,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-boar.svg"
   },
   {
       monster_id: 154,
@@ -2002,7 +2155,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-centipede.svg"
   },
   {
       monster_id: 155,
@@ -2015,7 +2169,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-constrictor-snake.svg"
   },
   {
       monster_id: 156,
@@ -2028,7 +2183,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-crab.svg"
   },
   {
       monster_id: 157,
@@ -2041,7 +2197,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-crocodile.svg"
   },
   {
       monster_id: 158,
@@ -2054,7 +2211,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-eagle.svg"
   },
   {
       monster_id: 159,
@@ -2067,7 +2225,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-elk.svg"
   },
   {
       monster_id: 160,
@@ -2080,7 +2239,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-fire-beetle.svg"
   },
   {
       monster_id: 161,
@@ -2093,7 +2253,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-frog.svg"
   },
   {
       monster_id: 162,
@@ -2106,7 +2267,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-goat.svg"
   },
   {
       monster_id: 163,
@@ -2119,7 +2281,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-hyena.svg"
   },
   {
       monster_id: 164,
@@ -2132,7 +2295,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-lizard.svg"
   },
   {
       monster_id: 165,
@@ -2145,7 +2309,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-octopus.svg"
   },
   {
       monster_id: 166,
@@ -2158,7 +2323,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-owl.svg"
   },
   {
       monster_id: 167,
@@ -2171,7 +2337,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-poisonous-snake.svg"
   },
   {
       monster_id: 168,
@@ -2184,7 +2351,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-rat.svg"
   },
   {
       monster_id: 169,
@@ -2197,7 +2365,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-scorpion.svg"
   },
   {
       monster_id: 170,
@@ -2210,7 +2379,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-sea-horse.svg"
   },
   {
       monster_id: 171,
@@ -2223,7 +2393,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-shark.svg"
   },
   {
       monster_id: 172,
@@ -2236,7 +2407,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-spider.svg"
   },
   {
       monster_id: 173,
@@ -2249,7 +2421,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-toad.svg"
   },
   {
       monster_id: 174,
@@ -2262,7 +2435,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-vulture.svg"
   },
   {
       monster_id: 175,
@@ -2275,7 +2449,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-wasp.svg"
   },
   {
       monster_id: 176,
@@ -2288,7 +2463,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-weasel.svg"
   },
   {
       monster_id: 177,
@@ -2301,7 +2477,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/giant-wolf-spider.svg"
   },
   {
       monster_id: 178,
@@ -2314,7 +2491,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/aberrations/gibbering-mouther.svg"
   },
   {
       monster_id: 179,
@@ -2327,7 +2505,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/githyanki-knight.svg"
   },
   {
       monster_id: 180,
@@ -2340,7 +2519,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/githyanki-warrior.svg"
   },
   {
       monster_id: 181,
@@ -2353,7 +2533,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/githzerai-monk.svg"
   },
   {
       monster_id: 182,
@@ -2366,7 +2547,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/githzerai-zerth.svg"
   },
   {
       monster_id: 183,
@@ -2379,7 +2561,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/glabrezu.svg"
   },
   {
       monster_id: 184,
@@ -2392,7 +2575,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/gladiator.svg"
   },
   {
       monster_id: 185,
@@ -2405,7 +2589,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/gnoll.svg"
   },
   {
       monster_id: 186,
@@ -2418,7 +2603,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/gnoll-fang-of-yeenoghu.svg"
   },
   {
       monster_id: 187,
@@ -2431,7 +2617,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/gnoll-pack-lord.svg"
   },
   {
       monster_id: 188,
@@ -2444,7 +2631,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/goat.svg"
   },
   {
       monster_id: 189,
@@ -2457,7 +2645,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/goblin.svg"
   },
   {
       monster_id: 190,
@@ -2470,7 +2659,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/goblin-boss.svg"
   },
   {
       monster_id: 191,
@@ -2483,7 +2673,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/gold-dragon-wyrmling.svg"
   },
   {
       monster_id: 192,
@@ -2496,7 +2687,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/gorgon.svg"
   },
   {
       monster_id: 193,
@@ -2509,7 +2701,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/goristro.svg"
   },
   {
       monster_id: 194,
@@ -2522,7 +2715,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/oozes/gray-ooze.svg"
   },
   {
       monster_id: 195,
@@ -2535,7 +2729,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/gray-slaad.svg"
   },
   {
       monster_id: 196,
@@ -2548,7 +2743,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/green-dragon-wyrmling.svg"
   },
   {
       monster_id: 197,
@@ -2561,7 +2757,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fey/green-hag.svg"
   },
   {
       monster_id: 198,
@@ -2574,7 +2771,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/green-slaad.svg"
   },
   {
       monster_id: 199,
@@ -2587,7 +2785,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/aberrations/grell.svg"
   },
   {
       monster_id: 200,
@@ -2600,7 +2799,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/grick.svg"
   },
   {
       monster_id: 201,
@@ -2613,7 +2813,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/monstrosities/grick-alpha.svg"
   },
   {
       monster_id: 202,
@@ -2626,7 +2827,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/griffon.svg"
   },
   {
       monster_id: 203,
@@ -2639,7 +2841,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/grimlock.svg"
   },
   {
       monster_id: 204,
@@ -2652,7 +2855,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/guard.svg"
   },
   {
       monster_id: 205,
@@ -2665,7 +2869,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/guardian-naga.svg"
   },
   {
       monster_id: 206,
@@ -2678,7 +2883,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful neutral",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/gynosphinx.svg"
   },
   {
       monster_id: 207,
@@ -2691,7 +2897,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any chaotic alignment",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/giants/half-ogre.svg"
   },
   {
       monster_id: 208,
@@ -2704,7 +2911,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/half-red-dragon-veteran.svg"
   },
   {
       monster_id: 209,
@@ -2717,7 +2925,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/harpy.svg"
   },
   {
       monster_id: 210,
@@ -2730,7 +2939,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/hawk.svg"
   },
   {
       monster_id: 211,
@@ -2743,7 +2953,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/hell-hound.svg"
   },
   {
       monster_id: 212,
@@ -2756,7 +2967,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/constructs/helmed-horror.svg"
   },
   {
       monster_id: 213,
@@ -2769,7 +2981,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/hezrou.svg"
   },
   {
       monster_id: 214,
@@ -2782,7 +2995,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/hill-giant.svg"
   },
   {
       monster_id: 215,
@@ -2795,7 +3009,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/hippogriff.svg"
   },
   {
       monster_id: 216,
@@ -2808,7 +3023,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/hobgoblin.svg"
   },
   {
       monster_id: 217,
@@ -2821,7 +3037,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/hobgoblin-captain.svg"
   },
   {
       monster_id: 218,
@@ -2834,7 +3051,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/hobgoblin-warlord.svg"
   },
   {
       monster_id: 219,
@@ -2847,7 +3065,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/homunculus.svg"
   },
   {
       monster_id: 220,
@@ -2860,7 +3079,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/monstrosities/hook-horror.svg"
   },
   {
       monster_id: 221,
@@ -2873,7 +3093,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/horned-devil.svg"
   },
   {
       monster_id: 222,
@@ -2886,7 +3107,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/hunter-shark.svg"
   },
   {
       monster_id: 223,
@@ -2899,7 +3121,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/hydra.svg"
   },
   {
       monster_id: 224,
@@ -2912,7 +3135,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/hyena.svg"
   },
   {
       monster_id: 225,
@@ -2925,7 +3149,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/ice-devil.svg"
   },
   {
       monster_id: 226,
@@ -2938,7 +3163,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/ice-mephit.svg"
   },
   {
       monster_id: 227,
@@ -2951,7 +3177,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/imp.svg"
   },
   {
       monster_id: 228,
@@ -2964,7 +3191,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/intellect-devourer.svg"
   },
   {
       monster_id: 229,
@@ -2977,7 +3205,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/invisible-stalker.svg"
   },
   {
       monster_id: 230,
@@ -2990,7 +3219,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/iron-golem.svg"
   },
   {
       monster_id: 231,
@@ -3003,7 +3233,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/jackal.svg"
   },
   {
       monster_id: 232,
@@ -3016,7 +3247,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/jackalwere.svg"
   },
   {
       monster_id: 233,
@@ -3029,7 +3261,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/kenku.svg"
   },
   {
       monster_id: 234,
@@ -3042,7 +3275,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/killer-whale.svg"
   },
   {
       monster_id: 235,
@@ -3055,7 +3289,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/knight.svg"
   },
   {
       monster_id: 236,
@@ -3068,7 +3303,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/kobold.svg"
   },
   {
       monster_id: 237,
@@ -3081,7 +3317,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "chaotic evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/kraken.svg"
   },
   {
       monster_id: 238,
@@ -3094,7 +3331,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/kuo-toa.svg"
   },
   {
       monster_id: 239,
@@ -3107,7 +3345,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/kuo-toa-archpriest.svg"
   },
   {
       monster_id: 240,
@@ -3120,7 +3359,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/kuo-toa-whip.svg"
   },
   {
       monster_id: 241,
@@ -3133,7 +3373,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/lamia.svg"
   },
   {
       monster_id: 242,
@@ -3146,7 +3387,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/lemure.svg"
   },
   {
       monster_id: 243,
@@ -3159,7 +3401,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any evil alignment",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/lich.svg"
   },
   {
       monster_id: 244,
@@ -3172,7 +3415,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/lion.svg"
   },
   {
       monster_id: 245,
@@ -3185,7 +3429,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/lizard.svg"
   },
   {
       monster_id: 246,
@@ -3198,7 +3443,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/lizard-king/queen.svg"
   },
   {
       monster_id: 247,
@@ -3211,7 +3457,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/lizardfolk.svg"
   },
   {
       monster_id: 248,
@@ -3224,7 +3471,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/lizardfolk-shaman.svg"
   },
   {
       monster_id: 249,
@@ -3237,7 +3485,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/mage.svg"
   },
   {
       monster_id: 250,
@@ -3250,7 +3499,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/magma-mephit.svg"
   },
   {
       monster_id: 251,
@@ -3263,7 +3513,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/magmin.svg"
   },
   {
       monster_id: 252,
@@ -3276,7 +3527,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/mammoth.svg"
   },
   {
       monster_id: 253,
@@ -3289,7 +3541,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/manes.svg"
   },
   {
       monster_id: 254,
@@ -3302,7 +3555,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/manticore.svg"
   },
   {
       monster_id: 255,
@@ -3315,7 +3569,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/elementals/marid.svg"
   },
   {
       monster_id: 256,
@@ -3328,7 +3583,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/marilith.svg"
   },
   {
       monster_id: 257,
@@ -3341,7 +3597,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/mastiff.svg"
   },
   {
       monster_id: 258,
@@ -3354,7 +3611,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/medusa.svg"
   },
   {
       monster_id: 259,
@@ -3367,7 +3625,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/merfolk.svg"
   },
   {
       monster_id: 260,
@@ -3380,7 +3639,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/merrow.svg"
   },
   {
       monster_id: 261,
@@ -3393,7 +3653,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/fiends/mezzoloth.svg"
   },
   {
       monster_id: 262,
@@ -3406,7 +3667,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/mimic.svg"
   },
   {
       monster_id: 263,
@@ -3419,7 +3681,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/mind-flayer.svg"
   },
   {
       monster_id: 264,
@@ -3432,7 +3695,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/minotaur.svg"
   },
   {
       monster_id: 265,
@@ -3445,7 +3709,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/minotaur-skeleton.svg"
   },
   {
       monster_id: 266,
@@ -3458,7 +3723,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/constructs/monodrone.svg"
   },
   {
       monster_id: 267,
@@ -3471,7 +3737,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/elementals/mud-mephit.svg"
   },
   {
       monster_id: 268,
@@ -3484,7 +3751,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/mule.svg"
   },
   {
       monster_id: 269,
@@ -3497,7 +3765,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/mummy.svg"
   },
   {
       monster_id: 270,
@@ -3510,7 +3779,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/mummy-lord.svg"
   },
   {
       monster_id: 271,
@@ -3523,7 +3793,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/plants/myconid-adult.svg"
   },
   {
       monster_id: 272,
@@ -3536,7 +3807,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/plants/myconid-sovereign.svg"
   },
   {
       monster_id: 273,
@@ -3549,7 +3821,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/plants/myconid-sprout.svg"
   },
   {
       monster_id: 274,
@@ -3562,7 +3835,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/nalfeshnee.svg"
   },
   {
       monster_id: 275,
@@ -3575,7 +3849,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/plants/needle-blight.svg"
   },
   {
       monster_id: 276,
@@ -3588,7 +3863,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/night-hag.svg"
   },
   {
       monster_id: 277,
@@ -3601,7 +3877,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/nightmare.svg"
   },
   {
       monster_id: 278,
@@ -3614,7 +3891,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/noble.svg"
   },
   {
       monster_id: 279,
@@ -3627,7 +3905,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/nothic.svg"
   },
   {
       monster_id: 280,
@@ -3640,7 +3919,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/fiends/nycaloth.svg"
   },
   {
       monster_id: 281,
@@ -3653,7 +3933,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/oozes/ochre-jelly.svg"
   },
   {
       monster_id: 282,
@@ -3666,7 +3947,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/octopus.svg"
   },
   {
       monster_id: 283,
@@ -3679,7 +3961,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/ogre.svg"
   },
   {
       monster_id: 284,
@@ -3692,7 +3975,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/ogre-zombie.svg"
   },
   {
       monster_id: 285,
@@ -3705,7 +3989,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/oni.svg"
   },
   {
       monster_id: 286,
@@ -3718,7 +4003,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/orc.svg"
   },
   {
       monster_id: 287,
@@ -3731,7 +4017,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/orc-eye-of-gruumsh.svg"
   },
   {
       monster_id: 288,
@@ -3744,7 +4031,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/orc-war-chief.svg"
   },
   {
       monster_id: 289,
@@ -3757,7 +4045,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/orog.svg"
   },
   {
       monster_id: 290,
@@ -3770,7 +4059,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/aberrations/otyugh.svg"
   },
   {
       monster_id: 291,
@@ -3783,7 +4073,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/owl.svg"
   },
   {
       monster_id: 292,
@@ -3796,7 +4087,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/owlbear.svg"
   },
   {
       monster_id: 293,
@@ -3809,7 +4101,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/panther.svg"
   },
   {
       monster_id: 294,
@@ -3822,7 +4115,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/celestials/pegasus.svg"
   },
   {
       monster_id: 295,
@@ -3835,7 +4129,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/constructs/pentadrone.svg"
   },
   {
       monster_id: 296,
@@ -3848,7 +4143,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/monstrosities/peryton.svg"
   },
   {
       monster_id: 297,
@@ -3861,7 +4157,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/phase-spider.svg"
   },
   {
       monster_id: 298,
@@ -3874,7 +4171,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/monstrosities/piercer.svg"
   },
   {
       monster_id: 299,
@@ -3887,7 +4185,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/pit-fiend.svg"
   },
   {
       monster_id: 300,
@@ -3900,7 +4199,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral good",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fey/pixie.svg"
   },
   {
       monster_id: 301,
@@ -3913,7 +4213,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/celestials/planetar.svg"
   },
   {
       monster_id: 302,
@@ -3926,7 +4227,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/plesiosaurus.svg"
   },
   {
       monster_id: 303,
@@ -3939,7 +4241,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/poisonous-snake.svg"
   },
   {
       monster_id: 304,
@@ -3952,7 +4255,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/polar-bear.svg"
   },
   {
       monster_id: 305,
@@ -3965,7 +4269,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/pony.svg"
   },
   {
       monster_id: 306,
@@ -3978,7 +4283,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/priest.svg"
   },
   {
       monster_id: 307,
@@ -3991,7 +4297,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/pseudodragon.svg"
   },
   {
       monster_id: 308,
@@ -4004,7 +4311,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "Monster Manual (BR)"
+      source: "Monster Manual (BR)",
+      token_img: "assets/tokens/beasts/pteranodon.svg"
   },
   {
       monster_id: 309,
@@ -4017,7 +4325,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/purple-worm.svg"
   },
   {
       monster_id: 310,
@@ -4030,7 +4339,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/constructs/quadrone.svg"
   },
   {
       monster_id: 311,
@@ -4043,7 +4353,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/quaggoth.svg"
   },
   {
       monster_id: 312,
@@ -4056,7 +4367,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/plants/quaggoth-spore-servant.svg"
   },
   {
       monster_id: 313,
@@ -4069,7 +4381,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/quasit.svg"
   },
   {
       monster_id: 314,
@@ -4082,7 +4395,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/quipper.svg"
   },
   {
       monster_id: 315,
@@ -4095,7 +4409,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/rakshasa.svg"
   },
   {
       monster_id: 316,
@@ -4108,7 +4423,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/rat.svg"
   },
   {
       monster_id: 317,
@@ -4121,7 +4437,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/raven.svg"
   },
   {
       monster_id: 318,
@@ -4134,7 +4451,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/red-dragon-wyrmling.svg"
   },
   {
       monster_id: 319,
@@ -4147,7 +4465,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/red-slaad.svg"
   },
   {
       monster_id: 320,
@@ -4160,7 +4479,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/reef-shark.svg"
   },
   {
       monster_id: 321,
@@ -4173,7 +4493,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/remorhaz.svg"
   },
   {
       monster_id: 322,
@@ -4186,7 +4507,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/undead/revenant.svg"
   },
   {
       monster_id: 323,
@@ -4199,7 +4521,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/rhinoceros.svg"
   },
   {
       monster_id: 324,
@@ -4212,7 +4535,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/riding-horse.svg"
   },
   {
       monster_id: 325,
@@ -4225,7 +4549,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/roc.svg"
   },
   {
       monster_id: 326,
@@ -4238,7 +4563,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/roper.svg"
   },
   {
       monster_id: 327,
@@ -4251,7 +4577,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/rug-of-smothering.svg"
   },
   {
       monster_id: 328,
@@ -4264,7 +4591,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/rust-monster.svg"
   },
   {
       monster_id: 329,
@@ -4277,7 +4605,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/saber-toothed-tiger.svg"
   },
   {
       monster_id: 330,
@@ -4290,7 +4619,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/sahuagin.svg"
   },
   {
       monster_id: 331,
@@ -4303,7 +4633,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/sahuagin-baron.svg"
   },
   {
       monster_id: 332,
@@ -4316,7 +4647,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/sahuagin-priestess.svg"
   },
   {
       monster_id: 333,
@@ -4329,7 +4661,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/salamander.svg"
   },
   {
       monster_id: 334,
@@ -4342,7 +4675,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fey/satyr.svg"
   },
   {
       monster_id: 335,
@@ -4355,7 +4689,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/constructs/scarecrow.svg"
   },
   {
       monster_id: 336,
@@ -4368,7 +4703,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/scorpion.svg"
   },
   {
       monster_id: 337,
@@ -4381,7 +4717,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/scout.svg"
   },
   {
       monster_id: 338,
@@ -4394,7 +4731,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fey/sea-hag.svg"
   },
   {
       monster_id: 339,
@@ -4407,7 +4745,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/sea-horse.svg"
   },
   {
       monster_id: 340,
@@ -4420,7 +4759,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/shadow.svg"
   },
   {
       monster_id: 341,
@@ -4433,7 +4773,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/fiends/shadow-demon.svg"
   },
   {
       monster_id: 342,
@@ -4446,7 +4787,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/plants/shambling-mound.svg"
   },
   {
       monster_id: 343,
@@ -4459,7 +4801,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/shield-guardian.svg"
   },
   {
       monster_id: 344,
@@ -4472,7 +4815,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/plants/shrieker.svg"
   },
   {
       monster_id: 345,
@@ -4485,7 +4829,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/silver-dragon-wyrmling.svg"
   },
   {
       monster_id: 346,
@@ -4498,7 +4843,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/skeleton.svg"
   },
   {
       monster_id: 347,
@@ -4511,7 +4857,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/slaad-tadpole.svg"
   },
   {
       monster_id: 348,
@@ -4524,7 +4871,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/elementals/smoke-mephit.svg"
   },
   {
       monster_id: 349,
@@ -4537,7 +4885,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/celestials/solar.svg"
   },
   {
       monster_id: 350,
@@ -4550,7 +4899,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/aberrations/spectator.svg"
   },
   {
       monster_id: 351,
@@ -4563,7 +4913,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/specter.svg"
   },
   {
       monster_id: 352,
@@ -4576,7 +4927,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/spider.svg"
   },
   {
       monster_id: 353,
@@ -4589,7 +4941,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/spined-devil.svg"
   },
   {
       monster_id: 354,
@@ -4602,7 +4955,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/spirit-naga.svg"
   },
   {
       monster_id: 355,
@@ -4615,7 +4969,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fey/sprite.svg"
   },
   {
       monster_id: 356,
@@ -4628,7 +4983,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/spy.svg"
   },
   {
       monster_id: 357,
@@ -4641,7 +4997,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/steam-mephit.svg"
   },
   {
       monster_id: 358,
@@ -4654,7 +5011,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/stirge.svg"
   },
   {
       monster_id: 359,
@@ -4667,7 +5025,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/stone-giant.svg"
   },
   {
       monster_id: 360,
@@ -4680,7 +5039,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/constructs/stone-golem.svg"
   },
   {
       monster_id: 361,
@@ -4693,7 +5053,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "chaotic good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/storm-giant.svg"
   },
   {
       monster_id: 362,
@@ -4706,7 +5067,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/succubus.svg"
   },
   {
       monster_id: 363,
@@ -4719,7 +5081,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/swarm-of-bats.svg"
   },
   {
       monster_id: 364,
@@ -4732,7 +5095,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/swarm-of-insects.svg"
   },
   {
       monster_id: 365,
@@ -4745,7 +5109,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/swarm-of-poisonous-snakes.svg"
   },
   {
       monster_id: 366,
@@ -4758,7 +5123,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/swarm-of-quippers.svg"
   },
   {
       monster_id: 367,
@@ -4771,7 +5137,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/swarm-of-rats.svg"
   },
   {
       monster_id: 368,
@@ -4784,7 +5151,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/swarm-of-ravens.svg"
   },
   {
       monster_id: 369,
@@ -4797,7 +5165,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/tarrasque.svg"
   },
   {
       monster_id: 370,
@@ -4810,7 +5179,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/humanoids/thri-kreen.svg"
   },
   {
       monster_id: 371,
@@ -4823,7 +5193,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any non-good alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/thug.svg"
   },
   {
       monster_id: 372,
@@ -4836,7 +5207,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/tiger.svg"
   },
   {
       monster_id: 373,
@@ -4849,7 +5221,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/plants/treant.svg"
   },
   {
       monster_id: 374,
@@ -4862,7 +5235,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/tribal-warrior.svg"
   },
   {
       monster_id: 375,
@@ -4875,7 +5249,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/triceratops.svg"
   },
   {
       monster_id: 376,
@@ -4888,7 +5263,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful neutral",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/constructs/tridrone.svg"
   },
   {
       monster_id: 377,
@@ -4901,7 +5277,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/troglodyte.svg"
   },
   {
       monster_id: 378,
@@ -4914,7 +5291,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/giants/troll.svg"
   },
   {
       monster_id: 379,
@@ -4927,7 +5305,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual (BR)"
+      source: "Monster Manual (BR)",
+      token_img: "assets/tokens/plants/twig-blight.svg"
   },
   {
       monster_id: 380,
@@ -4940,7 +5319,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/tyrannosaurus-rex.svg"
   },
   {
       monster_id: 381,
@@ -4953,7 +5333,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/ultroloth.svg"
   },
   {
       monster_id: 382,
@@ -4966,7 +5347,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/monstrosities/umber-hulk.svg"
   },
   {
       monster_id: 383,
@@ -4979,7 +5361,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful good",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/celestials/unicorn.svg"
   },
   {
       monster_id: 384,
@@ -4992,7 +5375,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: true,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/vampire.svg"
   },
   {
       monster_id: 385,
@@ -5005,7 +5389,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/vampire-spawn.svg"
   },
   {
       monster_id: 386,
@@ -5018,7 +5403,8 @@ const monsters = [
       special_speed: "none",
       alignment: "any alignment",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/veteran.svg"
   },
   {
       monster_id: 387,
@@ -5031,7 +5417,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/plants/vine-blight.svg"
   },
   {
       monster_id: 388,
@@ -5044,7 +5431,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/plants/violet-fungus.svg"
   },
   {
       monster_id: 389,
@@ -5057,7 +5445,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/fiends/vrock.svg"
   },
   {
       monster_id: 390,
@@ -5070,7 +5459,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/vulture.svg"
   },
   {
       monster_id: 391,
@@ -5083,7 +5473,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/warhorse.svg"
   },
   {
       monster_id: 392,
@@ -5096,7 +5487,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/warhorse-skeleton.svg"
   },
   {
       monster_id: 393,
@@ -5109,7 +5501,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/water-elemental.svg"
   },
   {
       monster_id: 394,
@@ -5122,7 +5515,8 @@ const monsters = [
       special_speed: "swim",
       alignment: "neutral",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/elementals/water-weird.svg"
   },
   {
       monster_id: 395,
@@ -5135,7 +5529,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/weasel.svg"
   },
   {
       monster_id: 396,
@@ -5148,7 +5543,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/werebear.svg"
   },
   {
       monster_id: 397,
@@ -5161,7 +5557,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/wereboar.svg"
   },
   {
       monster_id: 398,
@@ -5174,7 +5571,8 @@ const monsters = [
       special_speed: "none",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/wererat.svg"
   },
   {
       monster_id: 399,
@@ -5187,7 +5585,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/weretiger.svg"
   },
   {
       monster_id: 400,
@@ -5200,7 +5599,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/humanoids/werewolf.svg"
   },
   {
       monster_id: 401,
@@ -5213,7 +5613,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/white-dragon-wyrmling.svg"
   },
   {
       monster_id: 402,
@@ -5226,7 +5627,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/wight.svg"
   },
   {
       monster_id: 403,
@@ -5239,7 +5641,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/will-o'-wisp.svg"
   },
   {
       monster_id: 404,
@@ -5252,7 +5655,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/winged-kobold.svg"
   },
   {
       monster_id: 405,
@@ -5265,7 +5669,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/winter-wolf.svg"
   },
   {
       monster_id: 406,
@@ -5278,7 +5683,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/beasts/wolf.svg"
   },
   {
       monster_id: 407,
@@ -5291,7 +5697,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/monstrosities/worg.svg"
   },
   {
       monster_id: 408,
@@ -5304,7 +5711,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/wraith.svg"
   },
   {
       monster_id: 409,
@@ -5317,7 +5725,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "unaligned",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/wyvern.svg"
   },
   {
       monster_id: 410,
@@ -5330,7 +5739,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/elementals/xorn.svg"
   },
   {
       monster_id: 411,
@@ -5343,7 +5753,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual (BR)"
+      source: "Monster Manual (BR)",
+      token_img: "assets/tokens/monstrosities/yeti.svg"
   },
   {
       monster_id: 412,
@@ -5356,7 +5767,8 @@ const monsters = [
       special_speed: "none",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/fiends/yochlol.svg"
   },
   {
       monster_id: 413,
@@ -5369,7 +5781,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-black-dragon.svg"
   },
   {
       monster_id: 414,
@@ -5382,7 +5795,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-blue-dragon.svg"
   },
   {
       monster_id: 415,
@@ -5395,7 +5809,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-brass-dragon.svg"
   },
   {
       monster_id: 416,
@@ -5408,7 +5823,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-bronze-dragon.svg"
   },
   {
       monster_id: 417,
@@ -5421,7 +5837,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-copper-dragon.svg"
   },
   {
       monster_id: 418,
@@ -5434,7 +5851,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-gold-dragon.svg"
   },
   {
       monster_id: 419,
@@ -5447,7 +5865,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "lawful evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-green-dragon.svg"
   },
   {
       monster_id: 420,
@@ -5460,7 +5879,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-red-dragon.svg"
   },
   {
       monster_id: 421,
@@ -5473,7 +5893,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "chaotic evil",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/dragons/young-red-shadow-dragon.svg"
   },
   {
       monster_id: 422,
@@ -5486,7 +5907,8 @@ const monsters = [
       special_speed: "none",
       alignment: "unaligned",
       legendary: false,
-      source: "Monster Manual"
+      source: "Monster Manual",
+      token_img: "assets/tokens/monstrosities/young-remorhaz.svg"
   },
   {
       monster_id: 423,
@@ -5499,7 +5921,8 @@ const monsters = [
       special_speed: "fly",
       alignment: "lawful good",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-silver-dragon.svg"
   },
   {
       monster_id: 424,
@@ -5512,7 +5935,8 @@ const monsters = [
       special_speed: "fly, swim",
       alignment: "chaotic evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/dragons/young-white-dragon.svg"
   },
   {
       monster_id: 425,
@@ -5525,7 +5949,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/monstrosities/yuan-ti-abomination.svg"
   },
   {
       monster_id: 426,
@@ -5538,7 +5963,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/monstrosities/yuan-ti-malison.svg"
   },
   {
       monster_id: 427,
@@ -5551,7 +5977,8 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "BR"
+      source: "BR",
+      token_img: "assets/tokens/humanoids/yuan-ti-pureblood.svg"
   },
   {
       monster_id: 428,
@@ -5564,9 +5991,10 @@ const monsters = [
       special_speed: "none",
       alignment: "neutral evil",
       legendary: false,
-      source: "SRD"
+      source: "SRD",
+      token_img: "assets/tokens/undead/zombie.svg"
   }
-];
+]
 
 conn.on('error', (err) => {console.log(err)});
 

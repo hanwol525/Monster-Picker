@@ -1,13 +1,12 @@
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 $color-1: #DAF3CC;
 $color-2: #272826;
 $color-3: #618978;
 
 * {
-  font-family: 'Roboto Slab', serif;
-  background-color: $color-1;
+  font-family: 'Amatic SC';
+  // background-color: $color-1;
 }
 
 // COLORS
@@ -21,8 +20,21 @@ $color-3: #618978;
   color: $color-3;
 }
 
+.stone-bg {
+  background-image: url('../assets/background.svg');
+}
+
+.header {
+  background-color: #5A565D;
+  padding-left: 10vh;
+
+  h1 {
+    font-size: 55px;
+  }
+}
+
 .page {
-  height: max(500px, 100vh);
+  height: max(700px, 100vh);
   width: fit-content;
   display: flex;
   flex-flow: column wrap;
@@ -30,11 +42,16 @@ $color-3: #618978;
   background-color: transparent;
 }
 
-.header {
-  margin: auto;
+.feature-card {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 100px auto;
+  padding-top: 20px;
 
-  h1 {
-    font-size: 50px;
+  p {
+    font-size: 30px;
+  
   }
 }
 

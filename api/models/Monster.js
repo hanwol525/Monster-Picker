@@ -12,6 +12,7 @@ const monsterSchema = new Schema({
   alignment: { type: String, required: true },
   legendary: { type: Boolean, required: false },
   source: { type: String, required: true },
+  token_img: { type: String, required: false },
 },
 {
   toJSON: {
