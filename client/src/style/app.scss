@@ -1,32 +1,24 @@
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-$color-1: #DAF3CC;
-$color-2: #272826;
-$color-3: #618978;
+$color-1: #5A565D;
+$color-2: #e9cda6;
+$color-3: #7a3e0e;
+$color-4: #966237;
 
 * {
   font-family: 'Amatic SC';
-  // background-color: $color-1;
-}
-
-// COLORS
-.color-1 {
-  color: $color-1;
-}
-.color-2 {
-  color: $color-2;
-}
-.color-3 {
-  color: $color-3;
 }
 
 .stone-bg {
   background-image: url('../assets/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
-  background-color: #5A565D;
-  padding-left: 10vh;
+  background-color: $color-1;
+  padding: 0% 10vh;
 
   h1 {
     font-size: 55px;
@@ -43,15 +35,57 @@ $color-3: #618978;
 }
 
 .feature-card {
-  background-color: white;
-  border-radius: 10px;
+  background-color: $color-2;
+  border: 25px solid;
+  border-image: repeating-linear-gradient(45deg, $color-3, $color-4, $color-3 65px) 60;
   text-align: center;
   margin: 100px auto;
   padding-top: 20px;
 
+  h1 {
+    font-size: 2.75vw;
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+
   p {
-    font-size: 30px;
-  
+    font-size: 1.5vw;
+  }
+}
+
+.poster {
+  background-image: url('../assets/tokens/scroll.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 20vw;
+  min-width: auto;
+  display: flex;
+
+  img {
+    margin: auto;
+    rotate: 20deg;
+    max-width: 8vw;
+    position: relative;
+    z-index: 999;
+    left: 5px;
+  }
+}
+
+.ministats {
+  margin: 50px;
+  width: 60vw;
+
+  .download {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 1.25vw;
+    margin: 0.5vw;
   }
 }
 
@@ -64,5 +98,135 @@ $color-3: #618978;
 
   p {
     font-size: 12px;
+  }
+}
+
+// media queries
+@media screen and (max-width: 1440px){
+  .ministats {
+    button {
+      font-size: 1.5vw;
+      margin: 0.75vw;
+    }
+  }
+}
+
+@media screen and (max-width: 992px){
+  .header {
+    margin-bottom: 2%;
+  }
+
+  .feature-card {
+    h1 {
+      font-size: 3.5vw;  
+    }
+  
+    h2 {
+      font-size: 2.5vw;  
+    }
+  
+    p {
+      font-size: 2vw;  
+    }  
+  }
+
+  .poster {
+    min-height: 15vw;
+
+    img {
+      max-width: 8vw;
+    }
+  }
+
+  .ministats {
+    margin: auto;
+    width: 80vw;
+
+    .download {
+      display: inline-flex;
+    }
+    
+    button {
+      font-size: 2vw;
+      margin: 0.75vw;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 768px){
+  .header {
+    h1 {
+      font-size: 8.5vw;
+    }
+  }
+
+  .feature-card {
+    h1 {
+      font-size: 5vw;  
+    }
+  
+    h2 {
+      font-size: 3.5vw;  
+    }
+  
+    p {
+      font-size: 2vw;  
+    }  
+  }
+  
+  .poster {
+    min-height: 30vw;
+
+    img {
+      max-width: 15vw;
+    }
+  }
+
+  .ministats {
+    width: 70vw;
+
+    .download {
+      padding: 0;
+    }
+    
+    button {
+      font-size: 2.5vw;
+      margin: 1vw;
+    }
+  }
+}
+
+@media screen and (max-width: 576px){
+  .header {
+    h1 {
+      font-size: 8vw;
+    }
+  }
+
+  .feature-card {
+    h1 {
+      font-size: 5.25vw;  
+    }
+  
+    h2 {
+      font-size: 4.5vw;  
+    }
+  
+    p {
+      font-size: 3.25vw;  
+    }  
+  }
+
+  .poster {
+    min-height: 35vw;
+  }
+
+  .ministats {
+    width: 80vw;
+    
+    button {
+      font-size: 3vw;
+    }
   }
 }

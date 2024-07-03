@@ -31,12 +31,12 @@ export default function Generator() {
   }
 
   return (
-    <Container className="page" style={{ margin: 'auto', paddingTop: '15vh'}} >
-        <Col className="feature-card">
-          <h1 className="text-decoration-underline">Featured Creature</h1>
+    <Container className="page" style={{ margin: 'auto'}} >
+        <div className="feature-card">
+          <h1 className="text-decoration-underline card-head">Featured Creature</h1>
           <Ministats />
           <Row className="justify-content-center"><button className="btn btn-secondary d-block mb-4" onClick={logData} style={{maxWidth: 'fit-content'}}>Fetch New</button></Row>
-        </Col>
+        </div>
     </Container>
   );
 };

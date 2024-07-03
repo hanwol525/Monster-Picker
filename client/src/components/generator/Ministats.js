@@ -4,20 +4,24 @@ import { Row, Col, Container } from "react-bootstrap";
 
 export default function Ministats(){
   return (
-    <Container className='d-lg-flex' style={{width: '70vw', margin: '50px'}}>
-      <Col>
-        <Row className='justify-content-center'>
-          <img src={require('../../assets/tokens/dragons/adult-red-dragon.svg').default} style={{maxWidth: '240px'}} alt={`a randomly selected/featured monster from dnd 5e`} />
-        </Row>
+    <Container className='d-lg-flex ministats'>
+      <Col style={{alignContent: 'center'}}>
+          <div className='poster'>
+            <img src={require('../../assets/tokens/celestials/couatl.svg').default} alt={`a randomly selected/featured monster from dnd 5e`} />
+          </div>
+          <Row className="justify-content-center download">
+            <button className="btn btn-secondary d-block" style={{maxWidth: 'fit-content'}}>Download SVG</button>
+            <button className="btn btn-secondary d-block" style={{maxWidth: 'fit-content'}}>Download PNG</button>
+          </Row>
       </Col>
       <Col style={{textAlign: 'start'}}>
-        <h1>monster monster monster monster monster</h1><p className='d-inline'>legendary y/n</p>
-        <p>cr</p>
-        <p>type</p>
-        <p>size</p>
-        <p>alignment</p>
-        <p>ac</p>
-        <p>special speeds</p>
+        <h2 className='card-subhead'>monster monster monster monster monster</h2><p className='d-inline card-body'>legendary y/n</p>
+        <p className='card-body'>cr</p>
+        <p className='card-body'>type</p>
+        <p className='card-body'>size</p>
+        <p className='card-body'>alignment</p>
+        <p className='card-body'>ac</p>
+        <p className='card-body'>special speeds</p>
       </Col>
     </Container>
   )
