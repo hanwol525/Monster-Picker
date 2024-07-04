@@ -1414,7 +1414,7 @@ const monsters = [
       alignment: "neutral good",
       legendary: false,
       source: "SRD",
-      token_img: "assets/tokens/humanoids/deep-gnome-(svirfneblin).svg"
+      token_img: "assets/tokens/humanoids/deep-gnome.svg"
   },
   {
       monster_id: 102,
@@ -5082,7 +5082,7 @@ const monsters = [
       alignment: "unaligned",
       legendary: false,
       source: "SRD",
-      token_img: "assets/tokens/fiends/swarm-of-bats.svg"
+      token_img: "assets/tokens/beasts/swarm-of-bats.svg"
   },
   {
       monster_id: 364,
@@ -5096,7 +5096,7 @@ const monsters = [
       alignment: "unaligned",
       legendary: false,
       source: "SRD",
-      token_img: "assets/tokens/fiends/swarm-of-insects.svg"
+      token_img: "assets/tokens/beasts/swarm-of-insects.svg"
   },
   {
       monster_id: 365,
@@ -5110,7 +5110,7 @@ const monsters = [
       alignment: "unaligned",
       legendary: false,
       source: "SRD",
-      token_img: "assets/tokens/fiends/swarm-of-poisonous-snakes.svg"
+      token_img: "assets/tokens/beasts/swarm-of-poisonous-snakes.svg"
   },
   {
       monster_id: 366,
@@ -5124,7 +5124,7 @@ const monsters = [
       alignment: "unaligned",
       legendary: false,
       source: "SRD",
-      token_img: "assets/tokens/fiends/swarm-of-quippers.svg"
+      token_img: "assets/tokens/beasts/swarm-of-quippers.svg"
   },
   {
       monster_id: 367,
@@ -5138,7 +5138,7 @@ const monsters = [
       alignment: "unaligned",
       legendary: false,
       source: "SRD",
-      token_img: "assets/tokens/fiends/swarm-of-rats.svg"
+      token_img: "assets/tokens/beasts/swarm-of-rats.svg"
   },
   {
       monster_id: 368,
@@ -5152,7 +5152,7 @@ const monsters = [
       alignment: "unaligned",
       legendary: false,
       source: "SRD",
-      token_img: "assets/tokens/fiends/swarm-of-ravens.svg"
+      token_img: "assets/tokens/beasts/swarm-of-ravens.svg"
   },
   {
       monster_id: 369,
@@ -5632,7 +5632,7 @@ const monsters = [
   },
   {
       monster_id: 403,
-      name: "Will-o'-Wisp",
+      name: "Will-o-Wisp",
       cr: 2,
       type: "Undead",
       size: "Tiny",
@@ -5642,7 +5642,7 @@ const monsters = [
       alignment: "chaotic evil",
       legendary: false,
       source: "SRD",
-      token_img: "assets/tokens/undead/will-o'-wisp.svg"
+      token_img: "assets/tokens/undead/will-o-wisp.svg"
   },
   {
       monster_id: 404,

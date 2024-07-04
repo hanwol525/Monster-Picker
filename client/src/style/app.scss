@@ -1,5 +1,6 @@
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
 $color-1: #5A565D;
 $color-2: #e9cda6;
 $color-3: #7a3e0e;
@@ -19,6 +20,9 @@ $color-4: #966237;
 .header {
   background-color: $color-1;
   padding: 0% 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 
   h1 {
     font-size: 55px;
@@ -42,6 +46,10 @@ $color-4: #966237;
   margin: 100px auto;
   padding-top: 20px;
 
+  button {
+    font-size: 1.25vw;
+  }
+
   h1 {
     font-size: 2.75vw;
   }
@@ -52,6 +60,7 @@ $color-4: #966237;
 
   p {
     font-size: 1.5vw;
+    margin-bottom: 4%;
   }
 }
 
@@ -69,7 +78,7 @@ $color-4: #966237;
     rotate: 20deg;
     max-width: 8vw;
     position: relative;
-    z-index: 999;
+    z-index: 99;
     left: 5px;
   }
 }
@@ -83,8 +92,14 @@ $color-4: #966237;
     padding: 10px;
   }
 
+  .legendary {
+    max-width: 125px;
+    border: 3px dashed #e49400;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+
   button {
-    font-size: 1.25vw;
     margin: 0.5vw;
   }
 }
@@ -103,10 +118,19 @@ $color-4: #966237;
 
 // media queries
 @media screen and (max-width: 1440px){
-  .ministats {
+  .feature-card {
     button {
       font-size: 1.5vw;
+    }
+  }
+  .ministats {
+    button {
       margin: 0.75vw;
+    }
+
+    .legendary {
+      border-width: 2.5px;
+      max-width: 100px;
     }
   }
 }
@@ -117,6 +141,9 @@ $color-4: #966237;
   }
 
   .feature-card {
+    button {
+      font-size: 2vw;
+    }
     h1 {
       font-size: 3.5vw;  
     }
@@ -145,9 +172,13 @@ $color-4: #966237;
     .download {
       display: inline-flex;
     }
+
+    .legendary {
+      border-width: 2px;
+      max-width: 95px;
+    }
     
     button {
-      font-size: 2vw;
       margin: 0.75vw;
     }
   }
@@ -162,6 +193,10 @@ $color-4: #966237;
   }
 
   .feature-card {
+    button {
+      font-size: 2.5vw;
+    }
+
     h1 {
       font-size: 5vw;  
     }
@@ -190,8 +225,12 @@ $color-4: #966237;
       padding: 0;
     }
     
+    .legendary {
+      border-width: 1.5px;
+      max-width: 80px;
+    }
+    
     button {
-      font-size: 2.5vw;
       margin: 1vw;
     }
   }
@@ -205,6 +244,10 @@ $color-4: #966237;
   }
 
   .feature-card {
+    button {
+      font-size: 3vw;
+    }
+
     h1 {
       font-size: 5.25vw;  
     }
@@ -224,9 +267,10 @@ $color-4: #966237;
 
   .ministats {
     width: 80vw;
-    
-    button {
-      font-size: 3vw;
+
+    .legendary {
+      border-width: 1px;
+      max-width: 70px;
     }
   }
 }

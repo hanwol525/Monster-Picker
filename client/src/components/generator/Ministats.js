@@ -1,27 +1,35 @@
 import {React} from 'react';
 import { Row, Col, Container } from "react-bootstrap";
+import { GiCrossedSwords, GiHealthPotion, GiHealingShield, GiLibertyWing, GiFlatPawPrint } from "react-icons/gi";
+import { FaRuler, FaBalanceScale } from "react-icons/fa";
 
-
-export default function Ministats(){
+export default function Ministats(prop){
+  const monster = prop.monster;
+  const token = `../../${monster.token_img}`;
+  const logMonster = () => {
+    console.log(monster.token_img);
+  }
   return (
     <Container className='d-lg-flex ministats'>
       <Col style={{alignContent: 'center'}}>
           <div className='poster'>
-            <img src={require('../../assets/tokens/celestials/couatl.svg').default} alt={`a randomly selected/featured monster from dnd 5e`} />
+            <img src={token} alt={`a randomly selected/featured monster from dnd 5e`} />
           </div>
           <Row className="justify-content-center download">
-            <button className="btn btn-secondary d-block" style={{maxWidth: 'fit-content'}}>Download SVG</button>
-            <button className="btn btn-secondary d-block" style={{maxWidth: 'fit-content'}}>Download PNG</button>
+            <button className="btn btn-secondary d-block" style={{maxWidth: 'fit-content'}}><i className='bi bi-download me-1' /> SVG Token Image</button>
+            <button className="btn btn-secondary d-block" style={{maxWidth: 'fit-content'}}><i className='bi bi-download me-1' /> PNG Token Image</button>
           </Row>
       </Col>
       <Col style={{textAlign: 'start'}}>
-        <h2 className='card-subhead'>monster monster monster monster monster</h2><p className='d-inline card-body'>legendary y/n</p>
-        <p className='card-body'>cr</p>
-        <p className='card-body'>type</p>
-        <p className='card-body'>size</p>
-        <p className='card-body'>alignment</p>
-        <p className='card-body'>ac</p>
-        <p className='card-body'>special speeds</p>
+        <h2>{monster.name}</h2>
+        <img style={monster.legendary ? {display: 'block'} : {display: 'none'}} src={require('../../assets/legendary.svg').default} className='legendary' alt="legendary monster badge"/>
+        <p><GiCrossedSwords className='me-2' /><span className='text-decoration-underline'>Challenge Rating</span>: {monster.cr === 0 ? 0 : monster.cr < 1 ? `1/${1/monster.cr}` : monster.cr}</p>
+        <p><GiHealthPotion className='me-2' /><span className='text-decoration-underline'>HP</span>: {monster.hp}/{monster.hp}</p>
+        <p><GiFlatPawPrint className='me-2' /><span className='text-decoration-underline'>Creature Type</span>: {monster.type}</p>
+        <p><FaRuler className='me-2' /><span className='text-decoration-underline'>Size</span>: {monster.size}</p>
+        <p><FaBalanceScale className='me-2' /><span className='text-decoration-underline'>Alignment</span>: {monster.alignment}</p>
+        <p><GiHealingShield className='me-2' /><span className='text-decoration-underline'>Armor Class</span>: {monster.ac}</p>
+        <p><GiLibertyWing className='me-2' /><span className='text-decoration-underline'>Special Movement</span>: {monster.special_speed}</p>
       </Col>
     </Container>
   )
